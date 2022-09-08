@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@300&family=Mukta:wght@500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  width: 80%;
+  height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+.navigation .logo-nav {
+  width: 20%;
+  padding-top: 10px;
+}
+.navigation .logo-nav h1 {
+  font-family: "Mukta", sans-serif;
+  color: rgb(8, 14, 49);
+  font-weight: 800px;
+  font-size: 40px;
+}
+.navigation .nav-display {
+  width: 80%;
+}
+.navigation .nav-display .nav-bar {
+  width: 100%;
+  height: 10vh;
+  font-size: 20px;
+}
+.navigation .nav-display .nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+  margin-left: 330px;
+  padding-top: 25px;
+  cursor: pointer;
+}
+.navigation .nav-display .nav-bar ul :hover {
+  color: #4DD0E1;
+}
+.navigation .nav-display .nav-bar ul li {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 200px;
+  color: rgb(86, 84, 84);
+}
+
+.main-container {
+  width: 100%;
+  background: lightgray;
+}
+.main-container .container-banner {
+  width: 80%;
+  height: 53vh;
+  margin: 0 auto;
+  display: flex;
+}
+.main-container .container-banner .service-discription {
+  width: 45%;
+  height: 50vh;
+}
+.main-container .container-banner .service-discription h1 {
+  font-size: 55px;
+  color: rgb(8, 14, 49);
+  padding-left: 40px;
+  padding-top: 25px;
+}
+.main-container .container-banner .service-discription h1 span {
+  color: #4DD0E1;
+}
+.main-container .container-banner .service-discription h2 {
+  font-size: 36px;
+  padding-left: 43px;
+  color: rgb(68, 67, 67);
+  padding-top: 4px;
+}
+.main-container .container-banner .service-discription p {
+  font-size: 18px;
+  padding-left: 43px;
+  color: rgb(171, 163, 163);
+  color: rgb(85, 83, 83);
+}
+.main-container .container-banner .service-images {
+  width: 45%;
+  height: 48vh;
+  margin-left: 90px;
+}
+.main-container .container-banner .service-images img {
+  width: 57%;
+  padding-left: 140px;
+  padding-top: 30px;
+}
+
+@-webkit-keyframes container-itemsAnim {
+  from {
+    margin-top: 200px;
+  }
+  to {
+    bottom: 100px;
+  }
+}
+
+@keyframes container-itemsAnim {
+  from {
+    margin-top: 200px;
+  }
+  to {
+    bottom: 100px;
+  }
+}
+.container-items {
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  width: 80%;
+  margin: 20px 10%;
+  -webkit-animation-name: container-itemsAnim;
+          animation-name: container-itemsAnim;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+.container-items .our-services {
+  width: 80%;
+  gap: 30px;
+}
+.container-items .our-services .our-services-box1 {
+  width: 100%;
+  margin-top: -20px;
+}
+.container-items .our-services .our-services-box1 img {
+  width: 80%;
+  margin: 10%;
+  background: #4DD0E1;
+}
+.container-items .our-services p {
+  display: inline-block;
+  margin-top: -20px;
+  font-size: 14px;
+  padding-left: 40px;
+  color: rgb(119, 116, 116);
+}
+.container-items .our-services .our-services-box2 {
+  width: 100%;
+  margin-top: -20px;
+}
+.container-items .our-services .our-services-box2 img {
+  width: 80%;
+  margin: 10%;
+  background: #FF8A65;
+}
+.container-items .our-services .our-services-box3 {
+  width: 100%;
+  margin-top: -20px;
+}
+.container-items .our-services .our-services-box3 img {
+  width: 80%;
+  margin: 10%;
+  background: #FFB74D;
+}
+
+.info-bar {
+  width: 100%;
+  height: 12vh;
+  background: lightgray;
+  text-align: center;
+}
+.info-bar h3 {
+  padding-top: 20px;
+  font-size: 27px;
+  font-family: "Mukta", sans-serif;
+  color: rgb(8, 14, 49);
+}
+
+.technical-discreption {
+  width: 80%;
+  margin: 20px 10%;
+  display: flex;
+  margin-top: 40px;
+}
+.technical-discreption .tech-image {
+  width: 50%;
+}
+.technical-discreption .tech-image img {
+  width: 120%;
+  margin-left: -230px;
+  margin-top: -95px;
+}
+.technical-discreption .tech-service {
+  width: 50%;
+  display: block;
+}
+.technical-discreption .tech-service h1 {
+  font-size: 50px;
+  margin-top: 150px;
+  color: rgb(8, 14, 49);
+  font-family: "Mukta", sans-serif;
+}
+.technical-discreption .tech-service p {
+  font-size: 18px;
+  font-family: "Mukta", sans-serif;
+  color: rgb(112, 106, 106);
+}
+
+footer {
+  background: rgb(184, 182, 182);
+  text-align: center;
+  padding: 30px;
+  font-size: 22px;
+  padding-top: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(8, 14, 49);
+  cursor: pointer;
+}
+footer:hover {
+  color: #FF8A65;
+}
+
+@media (max-width: 575px) {
+  .navigation {
+    width: 40%;
+    height: 5vh;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    background: red; /*the red is not applying*/
+  }
+  .navigation .logo-nav {
+    width: 20%;
+    padding-top: 10px;
+  }
+  .navigation .logo-nav h1 {
+    font-family: "Mukta", sans-serif;
+    color: rgb(8, 14, 49);
+    font-weight: 800px;
+    font-size: 40px;
+  }
+  .navigation .nav-display {
+    width: 40%;
+  }
+  .navigation .nav-display .nav-bar {
+    width: 50%;
+    height: 10vh;
+    font-size: 20px;
+  }
+  .navigation .nav-display .nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    margin-left: 330px;
+    padding-top: 25px;
+    cursor: pointer;
+  }
+  .navigation .nav-display .nav-bar ul :hover {
+    color: #4DD0E1;
+  }
+  .navigation .nav-display .nav-bar ul li {
+    text-align: center;
+    font-size: 19px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 200px;
+    color: rgb(86, 84, 84);
+  }
+  .main-container {
+    width: 50%;
+    background: lightgray;
+  }
+  .main-container .container-banner {
+    width: 80%;
+    height: 53vh;
+    margin: 0 auto;
+    display: flex;
+  }
+  .main-container .container-banner .service-discription {
+    width: 25%;
+    height: 50vh;
+  }
+  .main-container .container-banner .service-discription h1 {
+    font-size: 55px;
+    color: rgb(8, 14, 49);
+    padding-left: 40px;
+    padding-top: 25px;
+  }
+  .main-container .container-banner .service-discription h1 span {
+    color: #4DD0E1;
+  }
+  .main-container .container-banner .service-discription h2 {
+    font-size: 36px;
+    padding-left: 43px;
+    color: rgb(68, 67, 67);
+    padding-top: 4px;
+  }
+  .main-container .container-banner .service-discription p {
+    font-size: 18px;
+    padding-left: 43px;
+    color: rgb(171, 163, 163);
+    color: rgb(85, 83, 83);
+  }
+  .main-container .container-banner .service-images {
+    width: 45%;
+    height: 48vh;
+    margin-left: 90px;
+  }
+  .main-container .container-banner .service-images img {
+    width: 57%;
+    padding-left: 140px;
+    padding-top: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

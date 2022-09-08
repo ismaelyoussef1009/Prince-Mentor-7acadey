@@ -1,0 +1,10 @@
+@import'./reset';
+@import'./header';
+@import'./section';
+@import'./footer';
+
+
+
+@media (max-width: 575px) {
+    @import'./mobile/mobile';
+}

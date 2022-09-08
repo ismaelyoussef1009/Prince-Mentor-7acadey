@@ -1,0 +1,14 @@
+footer{
+    background: rgb(184, 182, 182);
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+    padding-top: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: $text-color;
+    cursor: pointer;
+    &:hover{
+        color: $box-two-background;
+    }
+}
